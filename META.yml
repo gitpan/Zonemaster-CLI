@@ -1,0 +1,33 @@
+---
+abstract: ~
+author:
+  - 'Calle Dybedahl <calle@init.se>'
+build_requires:
+  ExtUtils::MakeMaker: 6.59
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.59
+  Module::Install: 0
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.08'
+license: bsd
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Zonemaster-CLI
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Getopt::Long::Descriptive: 0
+  JSON::XS: 0
+  MooseX::Getopt: 0
+  Zonemaster: 0
+  perl: 5.14.2
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Zonemaster-CLI
+  license: http://www.opensource.org/licenses/BSD-3-Clause
+  repository: git@github.com:dotse/new-dnscheck.git
+version: '0.01'
