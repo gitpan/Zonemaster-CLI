@@ -14,8 +14,8 @@ tests_recursive('t');
 
 resources (
    license    => 'http://www.opensource.org/licenses/BSD-3-Clause',
-   repository => 'git@github.com:dotse/new-dnscheck.git',
-   bugtracker => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Zonemaster-CLI',
+   repository => 'git@github.com:dotse/zonemaster.git',
+   bugtracker => 'https://github.com/dotse/zonemaster/issues',
 );
 
 configure_requires (
@@ -27,12 +27,14 @@ build_requires (
 );
 
 requires (
-    'Zonemaster' => 0,
+    'Zonemaster' => '0.0.4',
     'MooseX::Getopt' => 0,
     'Getopt::Long::Descriptive' => 0,
-    'JSON::XS' => 0,
+    'Net::LDNS' => 0.65,
+    'Locale::TextDomain' => 0,
 );
 
 install_script 'zonemaster-cli';
+install_share;
 
 WriteAll;

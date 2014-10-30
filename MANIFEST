@@ -7,6 +7,7 @@ inc/Module/Install/Fetch.pm
 inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
 inc/Module/Install/Scripts.pm
+inc/Module/Install/Share.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 lib/Zonemaster/CLI.pm
@@ -16,8 +17,9 @@ MANIFEST			This list of files
 META.yml
 README
 script/zonemaster-cli
+share/en.po
+share/locale/en/LC_MESSAGES/Zonemaster-CLI.mo
+share/locale/sv/LC_MESSAGES/Zonemaster-CLI.mo
+share/sv.po
 t/00-load.t
-t/boilerplate.t
-t/manifest.t
-t/pod-coverage.t
-t/pod.t
+share/Makefile
