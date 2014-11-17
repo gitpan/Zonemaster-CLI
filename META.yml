@@ -26,10 +26,11 @@ requires:
   Locale::TextDomain: 0
   MooseX::Getopt: 0
   Net::LDNS: 0.65
+  Text::Reflow: 0
   Zonemaster: 0.0.4
   perl: 5.14.2
 resources:
   bugtracker: https://github.com/dotse/zonemaster/issues
   license: http://www.opensource.org/licenses/BSD-3-Clause
   repository: git@github.com:dotse/zonemaster.git
-version: '0.03'
+version: '0.001000'

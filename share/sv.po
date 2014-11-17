@@ -18,7 +18,7 @@ msgstr "Den lägsta allvarlighetsgrad som skall skrivas ut."
 msgid "The locale to use for messages translation."
 msgstr "Den locale som skall användas för utskrifter."
 
-msgid "Flag indicating of output should be in JSON or not."
+msgid "Flag indicating if output should be in JSON or not."
 msgstr "Flagga som avgör om utskrift skall göras som JSON."
 
 msgid "Flag indicating if output should be translated to human language or dumped raw."
@@ -30,7 +30,7 @@ msgstr "Skriv ut tidsstämplar."
 msgid "Print level on entries."
 msgstr "Skriv ut allvarlighetsnivåer."
 
-msgid "Print the name of the maodule on entries."
+msgid "Print the name of the module on entries."
 msgstr "Skriv ut modulnamn."
 
 msgid "A name/ip string giving a nameserver for undelegated tests. Can be given multiple times."
@@ -111,8 +111,8 @@ msgstr "%8s\t%5d meddelanden.\n"
 msgid "Warning: Net::LDNS not compiled with libidn, cannot handle non-ASCII names correctly."
 msgstr "Varning: Net::LDNS är inte kompilerad med IDNA-stöd, så enbart ASCII-namn kan hanteras."
 
-msgid "Warning: setting locale %s failed.\n\n"
-msgstr "Varning: misslyckades med att sätta locale till '%s'.\n\n"
+msgid "Warning: setting locale %s failed (is it installed on this system?).\n\n"
+msgstr "Varning: misslyckades med att sätta locale till '%s' (är den installerad på det här systemet?).\n\n"
 
 msgid "CRITICAL"
 msgstr "KRITISKT"
@@ -146,3 +146,6 @@ msgstr "=========="
 
 msgid "Looks OK."
 msgstr "Ser OK ut."
+
+msgid "At the end of a run, print a summary of the times the zone's name servers took to answer."
+msgstr "Efter att körningen avslutats, skriv ut en summering av zonens namnservrars svarstider."
