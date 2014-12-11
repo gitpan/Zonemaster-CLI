@@ -1,5 +1,5 @@
 ---
-abstract: ~
+abstract: 'run Zonemaster tests from the command line'
 author:
   - 'Calle Dybedahl <calle@init.se>'
 build_requires:
@@ -31,7 +31,7 @@ requires:
   Zonemaster: 0.0.4
   perl: 5.14.2
 resources:
-  bugtracker: https://github.com/dotse/zonemaster/issues
+  bugtracker: https://github.com/dotse/zonemaster-cli/issues
   license: http://www.opensource.org/licenses/BSD-3-Clause
-  repository: git@github.com:dotse/zonemaster.git
-version: v0.1.2
+  repository: https://github.com/dotse/zonemaster-cli
+version: v1.0.0
